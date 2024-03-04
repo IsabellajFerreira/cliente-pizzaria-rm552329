@@ -14,13 +14,14 @@ public class ClientePizzariaApplication {
 		SpringApplication.run(ClientePizzariaApplication.class, args);
 	}
 
-
-	@GetMapping(value= "/")
+	@GetMapping(value = "/")
 	public String index(){
-	String hello = 	"""
-				Bom dia ! 2TDSPG
-				Seja bem-vindo à Benezinho Pizzaria
+		String hello = """
+				Bom dia! 2TDSPG
+								
+				Seja bem-vindo à Benezinho's Pizzaria
 				""";
 		return hello;
 	}
+
 }
